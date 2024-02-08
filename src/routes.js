@@ -23,8 +23,30 @@ import Rtl from "views/Rtl.js";
 import TableList from "views/TableList.js";
 import Typography from "views/Typography.js";
 import UserProfile from "views/UserProfile.js";
+import Home from "views/Vendor/Home.js";
+import Ledger from "views/Vendor/Ledger.js";
 
 var routes = [
+  //main routes
+  {
+    path: "/home",
+    name: "Vendor Dashboard",
+    rtlName: "لوحة القيادة",
+    icon: "tim-icons icon-chart-pie-36",
+    component: <Home />,
+    layout: "/admin",
+  },
+  {
+    path: "/ledger",
+    name: "Ledger",
+    rtlName: "لوحة القيادة",
+    icon: "tim-icons icon-chart-pie-36",
+    component: <Ledger />,
+    layout: "/admin",
+  },
+
+  //old routes
+  /*
   {
     path: "/dashboard",
     name: "Dashboard",
@@ -89,5 +111,6 @@ var routes = [
     component: <Rtl />,
     layout: "/rtl",
   },
+  */
 ];
 export default routes;
