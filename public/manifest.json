@@ -457,7 +457,7 @@
   "background_color": "#ffffff",
   "description": "Zevar seller panel for all of our suppliers.",
   "id": "/home",
-  "scope": "https://fkfzw9-3000.csb.app/admin",
+  "scope": "/admin/",
   "display_override": ["standalone", "window-controls-overlay"],
   "shortcuts": [
     {
