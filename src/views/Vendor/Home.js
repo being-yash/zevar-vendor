@@ -195,6 +195,7 @@ function Home(props) {
             </Card>
           </Col>
         </Row>
+        {/* 
         <Row>
           <Col lg="6" md="12">
             <Card className="card-tasks">
@@ -527,6 +528,7 @@ function Home(props) {
             </Card>
           </Col>
         </Row>
+        */}
       </div>
     </>
   );

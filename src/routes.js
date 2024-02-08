@@ -31,7 +31,7 @@ import Profile from "views/Vendor/Profile.js";
 var routes = [
   //main routes
   {
-    path: "/home",
+    path: "/dashboard",
     name: "Dashboard",
     rtlName: "لوحة القيادة",
     icon: "tim-icons icon-chart-pie-36",
