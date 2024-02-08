@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* Black Dashboard React v1.2.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/black-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/black-dashboard-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -47,7 +30,7 @@ function Profile() {
                   <Row>
                     <Col className="pr-md-1" md="5">
                       <FormGroup>
-                        <label>Company (disabled)</label>
+                        <label>Shop Name (disabled)</label>
                         <Input
                           defaultValue="Creative Code Inc."
                           disabled
@@ -100,7 +83,7 @@ function Profile() {
                   <Row>
                     <Col md="12">
                       <FormGroup>
-                        <label>Address</label>
+                        <label>Full Address</label>
                         <Input
                           defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
                           placeholder="Home Address"
@@ -122,7 +105,7 @@ function Profile() {
                     </Col>
                     <Col className="px-md-1" md="4">
                       <FormGroup>
-                        <label>Country</label>
+                        <label>State</label>
                         <Input
                           defaultValue="Andrew"
                           placeholder="Country"
@@ -132,7 +115,7 @@ function Profile() {
                     </Col>
                     <Col className="pl-md-1" md="4">
                       <FormGroup>
-                        <label>Postal Code</label>
+                        <label>PinCode</label>
                         <Input placeholder="ZIP Code" type="number" />
                       </FormGroup>
                     </Col>
@@ -140,7 +123,7 @@ function Profile() {
                   <Row>
                     <Col md="8">
                       <FormGroup>
-                        <label>About Me</label>
+                        <label>Shop Bio...</label>
                         <Input
                           cols="80"
                           defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in
@@ -178,7 +161,7 @@ function Profile() {
                     />
                     <h5 className="title">Mike Andrew</h5>
                   </a>
-                  <p className="description">Ceo/Co-Founder</p>
+                  <p className="description">Wholesaler / Kundan Jewellery</p>
                 </div>
                 <div className="card-description">
                   Do not be scared of the truth because we need to restart the
