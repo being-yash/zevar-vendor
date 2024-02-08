@@ -15,33 +15,51 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import Dashboard from "views/Dashboard.js";
-import Icons from "views/Icons.js";
-import Map from "views/Map.js";
-import Notifications from "views/Notifications.js";
-import Rtl from "views/Rtl.js";
-import TableList from "views/TableList.js";
-import Typography from "views/Typography.js";
-import UserProfile from "views/UserProfile.js";
+// import Dashboard from "views/Dashboard.js";
+// import Icons from "views/Icons.js";
+// import Map from "views/Map.js";
+// import Notifications from "views/Notifications.js";
+// import Rtl from "views/Rtl.js";
+// import TableList from "views/TableList.js";
+// import Typography from "views/Typography.js";
+// import UserProfile from "views/UserProfile.js";
 import Home from "views/Vendor/Home.js";
 import Ledger from "views/Vendor/Ledger.js";
+import Orders from "views/Vendor/Orders.js";
+import Profile from "views/Vendor/Profile.js";
 
 var routes = [
   //main routes
   {
     path: "/home",
-    name: "Vendor Dashboard",
+    name: "Dashboard",
     rtlName: "لوحة القيادة",
     icon: "tim-icons icon-chart-pie-36",
     component: <Home />,
     layout: "/admin",
   },
   {
+    path: "/orders",
+    name: "Orders",
+    rtlName: "لوحة القيادة",
+    icon: "tim-icons icon-bullet-list-67",
+    component: <Orders />,
+    layout: "/admin",
+  },
+  {
     path: "/ledger",
     name: "Ledger",
     rtlName: "لوحة القيادة",
-    icon: "tim-icons icon-chart-pie-36",
+    icon: "tim-icons icon-components",
     component: <Ledger />,
+    layout: "/admin",
+  },
+  {
+    path: "/myprofile",
+    name: "My Profile",
+    rtlName: "لوحة القيادة",
+    icon: "tim-icons icon-single-02",
+    component: <Profile />,
     layout: "/admin",
   },
 
